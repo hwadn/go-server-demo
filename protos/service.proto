@@ -1,6 +1,6 @@
 syntax = "proto3";
 package service;
-option go_package = "https://github.com/IamHuadong/go-server-demo/props";
+option go_package = "./";
 
 message StringMessage {
   string value = 1;

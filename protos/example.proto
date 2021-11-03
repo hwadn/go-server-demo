@@ -1,7 +1,7 @@
 syntax = "proto3";
 package person;
 
-option go_package = "https://github.com/IamHuadong/go-server-demo/props";
+option go_package = "./";
 
 import "google/protobuf/timestamp.proto";
 
