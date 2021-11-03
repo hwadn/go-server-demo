@@ -1,0 +1,11 @@
+syntax = "proto3";
+package service;
+option go_package = "https://github.com/IamHuadong/go-server-demo/props";
+
+message StringMessage {
+  string value = 1;
+}
+
+service YourService {
+  rpc Echo(StringMessage) returns (StringMessage) {}
+}
